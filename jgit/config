@@ -1,0 +1,6 @@
+[filesystem "Oracle Corporation|17.0.7|/dev/disk3s5"]
+	timestampResolution = 3000 nanoseconds
+	minRacyThreshold = 0 nanoseconds
+[filesystem "Oracle Corporation|17.0.7|/dev/disk2s5"]
+	timestampResolution = 3000 nanoseconds
+	minRacyThreshold = 0 nanoseconds

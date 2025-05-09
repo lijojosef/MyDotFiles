@@ -8,7 +8,22 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="strug"
+# ZSH_THEME="strug"
+
+# list of best themes 
+# ZSH_THEME="agnoster"
+# ZSH_THEME="kphoen"
+# ZSH_THEME="jonathan"
+# ZSH_THEME="minimal"
+# ZSH_THEME="apple"
+# ZSH_THEME="gnzh"
+# ZSH_THEME="nanotech"
+# ZSH_THEME="miloshadzic"
+ ZSH_THEME="eastwood"
+# ZSH_THEME="simple"
+# ZSH_THEME="lukerandall"
+# ZSH_THEME="gozilla"
+
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -122,3 +137,7 @@ source $ZSH/oh-my-zsh.sh
 alias lg=lazygit
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+. "$HOME/.atuin/bin/env"
+
+eval "$(atuin init zsh)"

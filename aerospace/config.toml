@@ -211,3 +211,4 @@ alt-w = ['exec-and-forget open -a /Applications/WezTerm.app', 'mode main']
 #     4 = '^dell$'
 #     5 = 'main'
 #     6 = '^elgato$'
+

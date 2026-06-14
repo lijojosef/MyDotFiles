@@ -24,8 +24,8 @@ vim.keymap.set('n', 'U', '<C-r>')
 vim.keymap.set('n', '<Esc>', ':nohlsearch<cr>')
 
 -- skip folds (down, up)
-vim.cmd('nmap k gj')
-vim.cmd('nmap l gk')
+vim.cmd('nmap j gj')
+vim.cmd('nmap k gk')
 
 -- sync system clipboard
 vim.opt.clipboard = 'unnamedplus'
